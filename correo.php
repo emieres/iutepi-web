@@ -1,0 +1,1 @@
+<?php header("location: http://www.iutepi.edu/webmail") ?>
