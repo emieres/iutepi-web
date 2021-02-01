@@ -1,0 +1,97 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    body{
+      background-image: url(../img/fondo_2.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;;
+      background-size: 100%;
+    }
+    .container-fluid{
+      max-width: 780px;
+      background-color: white;
+    }
+    .container-fluid2{
+      max-width: 780px;
+      padding: 0;
+      border-bottom: 1px solid lightgray;
+    }
+    .navbar {
+      max-width: 780px;
+      margin-bottom: 0;
+      border-radius: 0;
+      font-weight: bold;
+    }
+    .panel-heading, .list-group-item{
+      padding: 2px;
+      text-align: left;
+    }
+    .navbar3{
+      max-width: 780px;
+      margin: 0 auto;
+      text-align: center;
+      color: darkred;
+      padding: 15px;
+      background-color: lightgray;
+    }
+    .panel-heading a:link{
+      text-decoration: none;
+    }
+    .panel-heading a:hover{
+      color: black;
+    }
+    .parrafo{
+      text-align: justify;
+      font-size: 12px;
+    }
+    a{
+      color: black;
+    }
+    .tabla1 td{
+      padding: 10px;
+    }
+    .breadcrumb{
+      font-size: 10px;
+      background: white;
+    }
+    .titulo{
+      color: darkred;
+    }
+    .titulo2{
+      font-weight: bold;
+      font-size: 12px;
+    }
+    .titulo3{
+      font-size: 12px;
+      text-align: justify;
+    }
+    .titulo4{
+      font-weight: bold;
+      font-size: 14px;
+      color: darkred;
+    }
+    .tabla3 td{
+      height: 100px;
+    }
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      margin-bottom: 15px;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
